@@ -1,0 +1,43 @@
+.navbar{
+	position: relative;
+}
+.navbar-header .navbar-brand{
+	color:white;
+}
+.nav.navbar-nav li a {
+   color: white;
+ }
+
+
+#jumbotronImage{
+	background: url("http://placehold.it/800x500");
+	background-position: stretch;
+	height:500px;
+	width:100%;
+}
+
+
+#aboutPicture{
+	background: url("http://placehold.it/300x300");
+	background-position: stretch;
+	height:300px;
+	width:300px;
+}
+
+#menuContainer{
+	background-color: black;
+	color:white;
+}
+
+.menuThumb{  /* need to fix thumbnail for medium and small devices */
+	margin:auto;
+	text-align: center;
+	background: url("http://placehold.it/180x180");
+	height:200px;
+	width:200px;
+}
+
+.thumbnail{
+	height:500px;
+	width:225px;
+}
