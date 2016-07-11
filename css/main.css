@@ -1,19 +1,46 @@
+@font-face {
+    font-family: KGten;
+    src: url(fonts/KGTenThousandReasons.ttf);
+}
+
 .navbar{
-	position: relative;
+	background-color:transparent;
+	font-family: 'KGten';
+	border:none;
 }
 .navbar-header .navbar-brand{
 	color:white;
+
+}
+#sticker{
+	position: absolute;
+}
+
+#sticker-sticky-wrapper{
+	height:0;
 }
 .nav.navbar-nav li a {
    color: white;
  }
 
+ .blacknav{
+ 	background-color:black;
+ }
 
-#jumbotronImage{
-	background: url("http://placehold.it/800x500");
-	background-position: stretch;
-	height:500px;
+.jumbotron{
+	background: url("../img/chalkboard.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+	height:512px;
 	width:100%;
+	font-family: 'KGten', sans-serif;
+}
+
+.jumbotron h3{
+	color: red;
 }
 
 
@@ -23,6 +50,11 @@
 	height:300px;
 	width:300px;
 }
+#googleMap{
+	margin:20px;
+	height:400px;
+}
+
 
 #menuContainer{
 	background-color: black;

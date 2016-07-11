@@ -1,12 +1,29 @@
  $(document).ready(function(){
+  $("#sticker").sticky({
+  	topSpacing:0,
+  	zIndex:1
+
+  });
+  $('#sticker').on('sticky-start', function() {
+    	console.log("Started");
+ 
+  	$('#sticker').addClass("blacknav")});
+
+
+  $('#sticker').on('sticky-end', function() { 
+  		$('#sticker').removeClass("blacknav");
+  	console.log("Ended"); });
 
   $(".contentContainer").css("min-height", $(window).height());
-(function() { var s = document.createElement("script");
-	s.async = true;
-	s.onload = s.onreadystatechange = function(){
-		getYelpWidget("micks-karma-bar-irvine","300","RED","y","y","3");
-	};
-		s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;
-		var x = document.getElementsByTagName('script')[0];
-		x.parentNode.insertBefore(s, x);})();
+
+    var map;
+    function initMap(){
+     map = new google.maps.Map(document.getElementById('googleMap'), {
+        center: {lat: 33.6842302, lng: -117.8537628},
+       
+        zoom: 15
+        });
+    }
+
+    initMap();
 });
