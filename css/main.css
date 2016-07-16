@@ -73,3 +73,17 @@
 	height:500px;
 	width:225px;
 }
+
+
+#footerContainer{
+	height:100px;
+	background-color:black;
+	color:white;
+}
+
+#footerContainer a{
+	color:white;
+}
+#footerContainer a:hover{
+	color:red;
+

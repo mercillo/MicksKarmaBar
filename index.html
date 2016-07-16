@@ -6,7 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 	<script src="jquery-1.12.4.min.js"></script>
 
 
@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navItem" data-offset="50">
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="sticker">
 		<div class="container" ><!--Container of navbar-->
 
@@ -36,8 +36,8 @@
 			<!--Items on the right side-->
 			<div class="collapse navbar-collapse" id="navItem">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="nav-item"> <a class="nav-link" href="#">About</a></li>
-					<li class="nav-item"> <a class="nav-link" href="#">Menu</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#aboutContainer" data-offset="50">About</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#menuContainer">Menu</a></li>
 					<li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
 					<li class="nav-item"> <a class="nav-link" href="http://www.oftendining.com/restaurant_info/order.php?store_id=2151&oid=1">Order Online</a></li>					
 				</ul>
@@ -153,7 +153,22 @@
 
 		</div>
 	</div>
+	<footer id="footerContainer">
+		<div class="container text-center">
+			<div class="col-md-6 col-md-offset-3">
 
+					<a href="https://www.facebook.com/Micks-Karma-Bar-170019506360151/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/Mickskarmabar"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/mickskarmabar/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+					<a href="https://foursquare.com/v/micks-karma-bar/4d26328de7a6a35d2ebcdf62"><i class="fa fa-foursquare fa-2x" aria-hidden="true"></i></a>	
+					<a href="https://www.youtube.com/user/Mickskarmabar"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+					<a href="https://plus.google.com/106379113461137663489/posts"><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
+					<a href="https://www.tripadvisor.com/Restaurant_Review-g32530-d2243923-Reviews-Micks_Karma_Bar-Irvine_California.html" <i class="fa fa-tripadvisor fa-2x" aria-hidden="true"></i></a>	
+					<a href="https://www.yelp.com/biz/micks-karma-bar-irvine"><i class="fa fa-yelp fa-2x" aria-hidden="true"></i></a>	
+			</div>
+		</div>
+
+	</footer>
 
 </body>
 
