@@ -24,7 +24,7 @@
 }
 #carousel1{
 	height:100%;
-	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background: url("../img/MicksKarmaCombo.jpg");
 	background-position:bottom;
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -33,7 +33,7 @@
 
 #carousel2{
 	height:100%;
-	background: url("../img/HacheLA/MicksCheese.jpg");
+	background: url("../img/MicksCheese.jpg");
 	background-position:center;
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
@@ -43,7 +43,7 @@
 
 #carousel3{
 	height:100%;
-	background: url("../img/HacheLA/TriDrinks.jpg");
+	background: url("../img/TriDrinks.jpg");
 	background-position:center;
 	background-size: 100% 100%;
 	background-repeat:no-repeat;
@@ -80,7 +80,7 @@
 
 
 #aboutPicture{
-	background: url("../img/HacheLA/Micks.jpg");
+	background: url("../img/Micks.jpg");
 	background-size:cover;
 		background-position: center;
 	height:300px;
@@ -143,21 +143,21 @@
    }
   #carousel1{
 	height:100%;
-	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background: url("../img/MicksKarmaCombo.jpg");
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position:center;
   }
     #carousel2{
 	height:100%;
-	background: url("../img/HacheLA/MicksCheese.jpg");
+	background: url("../img/MicksCheese.jpg");
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position:center;
   }
     #carousel3{
 	height:100%;
-	background: url("../img/HacheLA/TriDrinks.jpg");
+	background: url("../img/TriDrinks.jpg");
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position:center;
