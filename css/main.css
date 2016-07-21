@@ -107,19 +107,19 @@
 }
 
 #menuPic1{
-	background: url("../img/HacheLA/MicksKarmaEgg.jpg");
+	background: url("../img/MicksKarmaEgg.jpg");
 	background-size:cover;
 }
 #menuPic2{
-	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background: url("../img/MicksKarmaCombo.jpg");
 	background-size:cover;
 }
 #menuPic3{
-	background: url("../img/HacheLA/StrawberryBasil.jpg");
+	background: url("../img/StrawberryBasil.jpg");
 	background-size:cover;
 }
 #menuPic4{
-	background: url("../img/HacheLA/ComboDrink2.jpg");
+	background: url("../img/ComboDrink2.jpg");
 	background-size:cover;
 }
 #footerContainer{
