@@ -11,14 +11,14 @@
 
 
 	<script src="bootstrap/js/bootstrap.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcH_uQ1uGPwEE6dmkr8LwoEATHIP0V5iE&callback=initMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcH_uQ1uGPwEE6dmkr8LwoEATHIP0V5iE&callback=initMap"></script>
 	<script src="jquery.sticky.js"></script>    		
-	<script src="javascript.js"></script>    
+	<script src="javascript.js"></script>      
 
 
 </head>
 
-<body data-spy="scroll" data-target="#navItem" data-offset="50">
+<body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="sticker">
 		<div class="container" ><!--Container of navbar-->
 
@@ -36,7 +36,7 @@
 			<!--Items on the right side-->
 			<div class="collapse navbar-collapse" id="navItem">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="nav-item"> <a class="nav-link" href="#aboutContainer" data-offset="50">About</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#aboutContainer">About</a></li>
 					<li class="nav-item"> <a class="nav-link" href="#menuContainer">Menu</a></li>
 					<li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
 					<li class="nav-item"> <a class="nav-link" href="http://www.oftendining.com/restaurant_info/order.php?store_id=2151&oid=1">Order Online</a></li>					
@@ -51,7 +51,45 @@
      </div>
 	</nav><!--Navbar end-->
 
-
+<div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner ">
+    <div class="item active ">
+      <div id="carousel1"></div>
+      <div class="carousel-caption">
+      	<h3><h3>
+      </div>
+    </div>
+    <div class="item">
+      <div id="carousel2"></div>
+      <div class="carousel-caption">
+      	<h3></h3>
+      </div>
+    </div>
+    <div class=" item">
+      <div id="carousel3"></div>
+      <div class="carousel-caption">
+      	<h3></h3>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+<!--JUMBOTRON 
 	<div class="jumbotron">
 		<div class="container text-center">
 			<h1>MICK'S KARMA BAR</h1>
@@ -60,14 +98,14 @@
 			
 		</div>
 	</div>
-
+-->
 	<div id="aboutContainer">
 	<div class="container contentContainer"><!--about Container start -->
 		<div class="text-center">
 			<h3>About Section</h3>
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
-					<div id="aboutPicture">Insert about Picture</div>
+					<div id="aboutPicture"></div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<h4>Micks is located in Downtown Irvine, located close to John Wayne Airport, please use the same parking as El Torito Grill and McCormick and Schmicks.</h4>
@@ -104,48 +142,28 @@
 					</div>
 				</div>
 				<div class="row">
-				  <div class="col-sm-6 col-md-3">
-				    <div class="thumbnail">
-				      <div class="menuThumb"></div>
-				      <div class="caption">
-				        <h3>Karma burger</h3>
-				        <p>Our version of the American Cheeseburger 100% Sirloin Steak Haché minced instore, handmade patty to order, American cheese, leaf lettuce, roma tomato, thin sliced red onions, Karma Sauce on our tasty bun No 19.</p>
-	
-				      </div>
-				    </div>
+				  <div class="col-xs-6 col-md-3">
+				 
+				      <div class="menuThumb" id="menuPic1"></div>
+				 
 				  </div>
 
-				  <div class="col-sm-6 col-md-3">
-				    <div class="thumbnail">
-				      <div class="menuThumb"></div>
-				      <div class="caption">
-				        <h3>Habanero Burger</h3>
-				        <p>Spicy! 4 chile escalivada, garlic mayo, lettuce and tomato topped with queso fresco on bun No 19</p>
-	
-				      </div>
-				    </div>
+				  <div class="col-xs-6 col-md-3">
+
+				      <div class="menuThumb" id="menuPic2"></div>
+
 				  </div>
 
-				  <div class="col-sm-6 col-md-3">
-				    <div class="thumbnail">
-				      <div class="menuThumb"></div>
-				      <div class="caption">
-				        <h3>Baja Burger</h3>
-				        <p>Guacamole and sour cream, pepperjack cheese, topped with pico de gallo and lettuce, bun No 19</p>
+				  <div class="col-xs-6 col-md-3">
 
-				      </div>
-				    </div>
+				      <div class="menuThumb" id="menuPic3"></div>
+
 				  </div>	
 
-				  <div class="col-sm-6 col-md-3">
-				    <div class="thumbnail">
-				      <div class="menuThumb"></div>				    	
-				      <div class="caption">
-				        <h3>Strawberry Basil Lemonade</h3>
-				        <p>Whole Strawberries crushed with fresh basil topped with our homemade lemonade</p>
+				  <div class="col-xs-6 col-md-3">
 
-				      </div>
-				    </div>
+				      <div class="menuThumb" id="menuPic4"> </div>				    	
+
 				  </div>					  			  
 				</div>				
 
@@ -153,23 +171,30 @@
 
 		</div>
 	</div>
+
 	<footer id="footerContainer">
 		<div class="container text-center">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
 
-					<a href="https://www.facebook.com/Micks-Karma-Bar-170019506360151/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-					<a href="https://twitter.com/Mickskarmabar"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-					<a href="https://www.instagram.com/mickskarmabar/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-					<a href="https://foursquare.com/v/micks-karma-bar/4d26328de7a6a35d2ebcdf62"><i class="fa fa-foursquare fa-2x" aria-hidden="true"></i></a>	
-					<a href="https://www.youtube.com/user/Mickskarmabar"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-					<a href="https://plus.google.com/106379113461137663489/posts"><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
-					<a href="https://www.tripadvisor.com/Restaurant_Review-g32530-d2243923-Reviews-Micks_Karma_Bar-Irvine_California.html" <i class="fa fa-tripadvisor fa-2x" aria-hidden="true"></i></a>	
-					<a href="https://www.yelp.com/biz/micks-karma-bar-irvine"><i class="fa fa-yelp fa-2x" aria-hidden="true"></i></a>	
+						<a href="https://www.facebook.com/Micks-Karma-Bar-170019506360151/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/Mickskarmabar"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/mickskarmabar/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+						<a href="https://foursquare.com/v/micks-karma-bar/4d26328de7a6a35d2ebcdf62"><i class="fa fa-foursquare fa-2x" aria-hidden="true"></i></a>	
+						<a href="https://www.youtube.com/user/Mickskarmabar"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/106379113461137663489/posts"><i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.tripadvisor.com/Restaurant_Review-g32530-d2243923-Reviews-Micks_Karma_Bar-Irvine_California.html" <i class="fa fa-tripadvisor fa-2x" aria-hidden="true"></i></a>	
+						<a href="https://www.yelp.com/biz/micks-karma-bar-irvine"><i class="fa fa-yelp fa-2x" aria-hidden="true"></i></a>	
+
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">Images were taken from hacheLA.com with permission by Michael Scheppers</div>
 			</div>
 		</div>
 
 	</footer>
-
 </body>
 
 

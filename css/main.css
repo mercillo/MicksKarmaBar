@@ -16,6 +16,41 @@
 	position: absolute;
 }
 
+
+.item{
+	height:700px;
+	background: url("../img/chalkboard.jpg");
+
+}
+#carousel1{
+	height:100%;
+	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background-position:bottom;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+#carousel2{
+	height:100%;
+	background: url("../img/HacheLA/MicksCheese.jpg");
+	background-position:center;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;	
+
+}
+
+#carousel3{
+	height:100%;
+	background: url("../img/HacheLA/TriDrinks.jpg");
+	background-position:center;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;	
+
+}
+
 #sticker-sticky-wrapper{
 	height:0;
 }
@@ -45,8 +80,9 @@
 
 
 #aboutPicture{
-	background: url("http://placehold.it/300x300");
-	background-position: stretch;
+	background: url("../img/HacheLA/Micks.jpg");
+	background-size:cover;
+		background-position: center;
 	height:300px;
 	width:300px;
 }
@@ -63,18 +99,29 @@
 
 .menuThumb{  /* need to fix thumbnail for medium and small devices */
 	margin:auto;
+	margin-top:10px;
 	text-align: center;
-	background: url("http://placehold.it/180x180");
-	height:200px;
-	width:200px;
+
+	height:180px;
+	width:180px;
 }
 
-.thumbnail{
-	height:500px;
-	width:225px;
+#menuPic1{
+	background: url("../img/HacheLA/MicksKarmaEgg.jpg");
+	background-size:cover;
 }
-
-
+#menuPic2{
+	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background-size:cover;
+}
+#menuPic3{
+	background: url("../img/HacheLA/StrawberryBasil.jpg");
+	background-size:cover;
+}
+#menuPic4{
+	background: url("../img/HacheLA/ComboDrink2.jpg");
+	background-size:cover;
+}
 #footerContainer{
 	height:100px;
 	background-color:black;
@@ -87,3 +134,32 @@
 #footerContainer a:hover{
 	color:red;
 
+}
+
+@media only screen and (max-width: 780px) { 
+   .item{
+	height:600px;
+	background: url("../img/chalkboard.jpg");
+   }
+  #carousel1{
+	height:100%;
+	background: url("../img/HacheLA/MicksKarmaCombo.jpg");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center;
+  }
+    #carousel2{
+	height:100%;
+	background: url("../img/HacheLA/MicksCheese.jpg");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center;
+  }
+    #carousel3{
+	height:100%;
+	background: url("../img/HacheLA/TriDrinks.jpg");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:center;
+  }
+}
