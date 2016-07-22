@@ -1,11 +1,15 @@
 @font-face {
-    font-family: KGten;
-    src: url(fonts/KGTenThousandReasons.ttf);
+    font-family: CabinSketch;
+    src: url(fonts/EraserRegular.ttf);
+}
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-Regular.ttf);
 }
 
 .navbar{
 	background-color:transparent;
-	font-family: 'KGten';
+	font-family: 'CabinSketch';
 	border:none;
 }
 .navbar-header .navbar-brand{
@@ -15,7 +19,9 @@
 #sticker{
 	position: absolute;
 }
-
+.oswald{
+	font-family: 'oswald';
+}
 
 .item{
 	height:700px;
@@ -71,7 +77,7 @@
 	color:white;
 	height:512px;
 	width:100%;
-	font-family: 'KGten', sans-serif;
+	font-family: 'CabinSketch', sans-serif;
 }
 
 .jumbotron h3{
